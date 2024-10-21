@@ -1,0 +1,25 @@
+{
+  "name": "fastify-sensible-strict-schema-example",
+  "version": "0.0.1",
+  "type": "module",
+  "packageManager": "pnpm@9.1.4",
+  "engines": {
+    "node": "20.17.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@fastify/sensible": "^5.6.0",
+    "fastify": "^4.0.0",
+    "fastify-type-provider-zod": "^2.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}

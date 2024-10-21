@@ -1,0 +1,10 @@
+.env
+.env.*
+coverage/** 
+dist/**
+node_modules/**
+*.csv
+
+.trigger
+# Sentry Config File
+.sentryclirc
